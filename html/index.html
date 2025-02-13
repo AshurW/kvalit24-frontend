@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hej</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <!-- rubrik text h1 - h6 -->
+        <h1>Hej</h1>
+        <h6>
+          <mark> ashur</mark>
+        </h6>
+        <!-- paragraph = block element / strong, b s, och span = inline element -->
+        <p>
+          <s>Hej mitt <b>nej</b> <strong>namn</strong> </s> är ashur
+          <i>warda</i>
+        </p>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <p>
+          hej hej nej nej <br />
+          jefndsafjdlksajfklsdajflsa dfasklj
+        </p>
+
+        <hr />
+
+        <!-- extern bild och länk -->
+        <img
+          src="https://doggy.se/wp-content/uploads/2023/06/spaniel-kontorshund-smulan-doggy-1600x800-1.jpg"
+          height="30"
+          width="20"
+          alt="min bild"
+        />
+        <div>
+          <a href="https://www.google.se/" target="_parent">google.se</a>
+        </div>
+
+        <!-- lokal bild och länk -->
+        <img src="img/hund-1920x1200.jpg" alt="hund-1920x1200" />
+        <a href="about.html" target="_blank">about page</a>
+
+        <!-- youtube iframe -->
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/LXb3EKWsInQ?si=e7QlWhIvgByT0U78"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        >
+        </iframe>
+
+        <!-- table -->
+        <table border="1px solid black">
+          <caption>
+            my table
+          </caption>
+          <thead>
+            <tr>
+              <th>1</th>
+              <th>2</th>
+              <th>3</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>4</td>
+              <td>6</td>
+              <td>7</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- list element -->
+        <ol>
+          <li>
+            <a href="https://google.se">food</a>
+          </li>
+          <li>bed</li>
+          <li>nice</li>
+          <li>hej</li>
+          <li>nej</li>
+        </ol>
+
+        <ul>
+          <li>food</li>
+          <li>bed</li>
+          <li>nice</li>
+          <li>hej</li>
+          <li>nej</li>
+        </ul>
+
+        <!-- form -->
+        <form action="about.html">
+          <label for="email">Email:</label>
+          <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder="skriv din email"
+          />
+          <input type="password" name="password" />
+          <input type="checkbox" name="checkbox" id="" />
+          <input type="radio" name="radio" />
+          <select name="select" id="">
+            <option value="hej">hej</option>
+            <option value="hej2">hej2</option>
+            <option value="hej3">hej3</option>
+            <option value="hej4">hej4</option>
+          </select>
+          <textarea name="textarea" id=""></textarea>
+          <input type="submit" value="skicka" />
+        </form>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
