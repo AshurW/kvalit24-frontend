@@ -1,0 +1,57 @@
+div.container#primary {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    background-color: lightblue;
+}
+
+div.container#primary > h1 {
+    color: red;
+}
+
+p.call-to-action + a {
+    background-color: yellow;
+}
+
+img[alt] ~ a {
+    background-color: aqua;
+}
+
+.clicker:hover {
+    background-color: green;
+}
+
+.clicker:active {
+    background-color: red;
+}
+
+.textfield:focus {
+    background-color: aqua;
+}
+
+ul li:first-child {
+    color: green;
+}
+
+ul li:last-child {
+    color: blue;
+}
+
+li:not(.special) {
+    background-color: red;
+}
+
+ul li:nth-child(3) {
+    background-color: aqua;
+}
+
+p::first-line {
+    background-color: red;
+    line-height: 30px;
+    height: 30px;
+    text-indent: 30px;
+}
+
+p::first-letter {
+    font-size: 30px;
+}
