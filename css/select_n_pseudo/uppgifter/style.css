@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+button {
+    background-color: green;
+    padding: 0 20px;
+    color: white;
+}
+
+button:hover {
+    background-color: red;
+}
+
+button:active {
+    background-color: yellow;
+}
+
+button::before {
+    background-color: aqua;
+    content: "→";
+}
+button::after {
+    background-color: red;
+    content: "→";
+}
