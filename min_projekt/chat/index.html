@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat app</title>
+    <link rel="stylesheet" href="style.css">
     <script src="main.js" defer></script>
 </head>
 <body>
+    <div id="login-container">
+        <form id="login-form">
+            <label for="username-input">Username</label>
+            <input id="username-input" type="text">
+            <input type="submit" value="Join">
+        </form>
+    </div>
     <div id="chat-container">
         <div id="message-container">
-            <!-- <div class="message">
-                <p>hej</p>
-            </div> -->
         </div>
         <div id="input-container">
             <form id="message-form">
